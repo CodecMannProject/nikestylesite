@@ -1,4 +1,5 @@
-# NikeStyleSite
+# [NikeStyleSite](nikestylesite.pp.ua)
+(Site's server is my computer, so it may be frequently offline)
 My own site built on [Django](https://www.djangoproject.com/) created a few years ago
 
 ## Instalation

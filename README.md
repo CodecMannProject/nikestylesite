@@ -23,9 +23,9 @@ pip install -r requirements.txt
 ```
 
 ### Then, go to your settings.py and copy its SECRET_KEY (save it somewhere)
-### Now move all repository files into your, and remove folder with your project name
+### Now move all repository files into yours, and remove folder with your project name
 
-### And finally, create file with blank name in format .env, and add your secret key like this:
+### And finally, create file in "kukurudzo" with blank name in format .env, and add your secret key like this:
 ```
 SECRET_KEY='[your key goes here]'
 ```

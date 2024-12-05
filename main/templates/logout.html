@@ -1,0 +1,26 @@
+
+<style>
+    body{
+        font-family: 'Inter', sans-serif;
+    }
+    .centered{
+        margin-left: 43.25%;
+    }
+</style>
+<title>Logout Success</title>
+
+{% extends "navbar.html" %}
+{% block content %}
+
+    <br>
+    <div class="alert alert-success" role="alert">
+        <h2 style="text-align: center;">Logged out!</h2>
+    </div>
+
+    <div class="centered">
+        <h1>
+            <a href="{% url 'home' %}">Back to home</a>
+        </h1>
+    </div>
+    
+{% endblock content %}

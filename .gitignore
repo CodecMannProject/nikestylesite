@@ -1,0 +1,11 @@
+# Specify filepatterns you want git to ignore.
+
+kukurudzo/__pycache__
+
+kukurudzo/.env
+
+db.sqlite3
+
+main/migrations
+
+main/__pycache__

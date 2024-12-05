@@ -1,0 +1,53 @@
+<title>Users</title>
+
+{% extends "navbar.html" %}
+{% block content %}
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">This account is banned for suspicious actions. Are you sure?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>User message:</h6>
+          <h6>Admin banned me, but you can go to my page. Click "Yes"</h6>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+          <a type="button" class="btn btn-primary" href="yava/">Yes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="card-group">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://naurok-test2.nyc3.digitaloceanspaces.com/uploads/test/92987/830217/899723_1616064128.png" class="img-fluid rounded-start" alt="Павло Завгородній">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Павлуша Загородній</h5>
+                  <p class="card-text">Learn more about Павлуша Загородній</p>
+                  <a href="pavlusha/" class="btn btn-primary">Profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://fs01.vseosvita.ua/0100ajmt-e439/012.png" class="img-fluid rounded-start" alt="Робінзон Кукурудзо">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Робінзон Кукурузо</h5>
+                  <p class="card-text">Learn more Робінзон Кукурузо</p>
+                  <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">Profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+{% endblock content %}

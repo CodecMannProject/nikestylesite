@@ -1,0 +1,24 @@
+<style>
+    body{
+        font-family: 'Inter', sans-serif;
+    }
+</style>
+<title>Register</title>
+
+{% extends "navbar.html" %}
+{% block content %}
+<div class="container">
+<h3>Register here</h3>
+</div>
+
+<hr>
+
+<div class="container">
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button type="submit" class="btn btn-success">Register</button>
+</form>
+</div>
+{% endblock content %}

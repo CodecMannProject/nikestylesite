@@ -1,0 +1,23 @@
+<style>
+    .results{
+        font-family: 'Inter', sans-serif;
+        margin-left: 50px;
+    }
+</style>
+<title>Search Results</title>
+
+{% extends "navbar.html" %}
+{% block content %}
+<h1 class="results">Users Search Results</h1>
+<ul class="results">
+  {% for users in object_list %}
+    <li>
+      {{ users.username }}
+    </li>
+  {% empty %}
+    <li>
+      No Users Found
+    </li>
+  {% endfor %}
+</ul>
+{% endblock content %}

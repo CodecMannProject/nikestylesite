@@ -19,7 +19,7 @@ git clone https://github.com/CodecMannProject/nikestylesite.git
 ### Then install requirements in your venv
 
 ```
-pip install -r requirements.txt
+pip install -r nikestylesite/requirements.txt
 ```
 
 ### Then, go to your settings.py and copy its SECRET_KEY (save it somewhere)
@@ -32,7 +32,7 @@ SECRET_KEY='[your key goes here]'
 
 ## Usage
 
-### To setup, run:
+### To setup, run this in repository directory:
 ```
 py manage.py makemigrations
 py manage.py migrate

@@ -1,2 +1,2 @@
-# nikestylesite
+# NikeSTyleSite
 My own site built on django created a few years ago
